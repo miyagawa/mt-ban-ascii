@@ -21,6 +21,8 @@ use MT::JunkFilter qw(ABSTAIN);
 use base qw( MT::Plugin );
 
 my $plugin = MT::Plugin::BanASCII->new({
+    author_name => 'Tatsuhiko Miyagawa',
+    author_link => 'http://blog.bulknews.net/mt/',
     name => "BanASCII",
     version => $VERSION,
     description => "Junk or moderate ASCII or Latin-1 comment",
